@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import arabic_reshaper as ar 
-df = pd.read_excel(r"C:\Users\foooo\Downloads\Riyadh_Aqqar.xlsx", sheet_name=0)
+#df = pd.read_excel(r"C:\Users\foooo\Downloads\Riyadh_Aqqar.xlsx", sheet_name=0)
 
 
 st.markdown("""
