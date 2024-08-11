@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import arabic_reshaper as ar 
-df = pd.read_excel(r"C:\Users\foooo\Downloads\Riyadh_Aqqar.xlsx", sheet_name=0)
+#import arabic_reshaper as ar 
+#df = pd.read_excel(r"C:\Users\foooo\Downloads\Riyadh_Aqqar.xlsx", sheet_name=0)
 
-
+#
 st.markdown("""
     <style>
     .custom-title {
@@ -16,7 +16,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.markdown('<p class="custom-title">هل فيه شقق رخيصة بالرياض؟</p>', unsafe_allow_html=True)
-st.image(r"C:\Users\foooo\OneDrive\سطح المكتب\photo pro\Screenshot 2024-08-10 170406.png", use_column_width=True)
+#st.image(r"C:\Users\foooo\OneDrive\سطح المكتب\photo pro\Screenshot 2024-08-10 170406.png", use_column_width=True)
 
 
 re_ = ar.reshape('أكيد أنت الحين تسأل نفسك: "كيف ألقى شقة سعرها معقول وبمميزات تناسب احتياجاتي، في حي كويس وياليت لو كان قريب من شغلي الجديد؟"للأعزاء اللي ناوين ينقلون للرياض لبداية جديدة، بسهل عليكم الأمور وأعرض لكم أسعار الشقق في الرياض من زوايا مختلفة. بساعدك تحصل اللي يناسبك 🙂.')
